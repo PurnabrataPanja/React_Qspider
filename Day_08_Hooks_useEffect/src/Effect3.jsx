@@ -3,16 +3,17 @@ import React, { useEffect, useState } from "react";
 const Effect3 = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    try {
       async function A() {
+        try {
         let data = await fetch("https://api.github.com/users");
         let finaldata = await data.json();
         setData(finaldata);
+         } catch (error) {
+      console.log(`The error is ${error}`);
+    }
       }
       A();
-    } catch (error) {
-      console.log(error);
-    }
+   
   }, []);
   return (
     <>
