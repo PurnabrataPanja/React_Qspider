@@ -1,19 +1,32 @@
 import React from 'react'
+import Provider1 from './Provider1';
+import Porfile1 from './Profile1';
 import Provider2 from './Provider2';
-import Porfile3 from './Profile3';
-import Provider3 from './Provider3';
-import Profile4 from './Profile4';
+import Profile2 from './Profile2';
+import Consumer1 from './Consumer1';
+import Consumer2 from './Consumer2';
 
 const App = () => {
   return (
     <>
-    {/* <Provider2/> */}
-    <Provider2>
-      <Porfile3/>
-    </Provider2>
-    <Provider3>
-      <Profile4/>
-    </Provider3>
+    {/* <Provider1/> */}
+
+    {/* <Provider1>
+      <Consumer1/>
+    </Provider1> */}
+    
+    {/* <Provider1>
+      <Porfile1/>
+    </Provider1> */}
+
+
+      <Provider2>
+        <Consumer2/>
+      </Provider2>
+      {/* <Provider2>
+        <Profile2/>
+      </Provider2> */}
+
     </>
   )
 }
