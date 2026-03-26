@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React from "react";
 import Hoc from "./Hoc";
 
@@ -7,7 +8,4 @@ function Xyz(props) {
   )
 }
 
-const XyzWithHoc = Hoc(Xyz);
-XyzWithHoc.displayName = "XyzWithHoc";
-
-export default XyzWithHoc;
+export default Hoc(Xyz);

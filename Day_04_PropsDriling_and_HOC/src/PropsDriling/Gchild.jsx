@@ -8,4 +8,4 @@ function Gchild(props) {
   )
 }
 
-export default Gchild
+export default Gchild;
