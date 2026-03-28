@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "trainer": "Govid",
+      "course": "React",
+      "id": "83WPPqOvs3E"
+    },
+    {
+      "trainer": "Manisa",
+      "course": "Django",
+      "id": "p8JydZaigHA"
+    },
+    {
+      "trainer": "Pramod",
+      "course": "SQL",
+      "id": "9ok_3oqa6vM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
